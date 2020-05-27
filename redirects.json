@@ -48,6 +48,42 @@
     "condition": null
   },
   {
+    "source": "/<a>",
+    "target": "/<a>/index.html",
+    "status": "200",
+    "condition": null
+  },
+  {
+    "source": "/<a>/q/<k>/<v>",
+    "target": "/<a>/q/<k>/<v>/index.html",
+    "status": "200",
+    "condition": null
+  },
+  {
+    "source": "/<a>/<b>/<c>/q/<k>/<v>",
+    "target": "/<a>/<b>/<c>/q/<k>/<v>/index.html",
+    "status": "200",
+    "condition": null
+  },
+  {
+    "source": "/<a>/",
+    "target": "/<a>/index.html",
+    "status": "200",
+    "condition": null
+  },
+  {
+    "source": "/<a>/q/<k>/<v>/",
+    "target": "/<a>/q/<k>/<v>/index.html",
+    "status": "200",
+    "condition": null
+  },
+  {
+    "source": "/<a>/<b>/<c>/q/<k>/<v>/",
+    "target": "/<a>/<b>/<c>/q/<k>/<v>/index.html",
+    "status": "200",
+    "condition": null
+  },
+  {
     "source": "</^[^.]+$|\\.(?!(css|gif|ico|jpg|js|png|txt|svg|woff|ttf|map|json|xml)$)([^.]+$)/>",
     "target": "/index.html",
     "status": "200",
