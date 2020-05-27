@@ -1,0 +1,62 @@
+[
+  {
+    "source": "/sdk/q/platform/js",
+    "target": "/lib/q/platform/js",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/<product>?platform=<platform>",
+    "target": "/<product>/q/platform/<platform>",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/<product>?framework=<framework>",
+    "target": "/<product>/q/framework/<framework>",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/<product>?integration=<integration>",
+    "target": "/<product>/q/integration/<integration>",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/<product>/<section>/<page>?platform=<platform>",
+    "target": "/<product>/<section>/<page>/q/platform/<platform>",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/<product>/<section>/<page>?framework=<framework>",
+    "target": "/<product>/<section>/<page>/q/framework/<framework>",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/<product>/<section>/<page>?integration=<integration>",
+    "target": "/<product>/<section>/<page>/q/integration/<integration>",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "/lib/graphqlapi/overview",
+    "target": "/lib/graphqlapi/getting-started",
+    "status": "301",
+    "condition": null
+  },
+  {
+    "source": "</^[^.]+$|\\.(?!(css|gif|ico|jpg|js|png|txt|svg|woff|ttf|map|json|xml)$)([^.]+$)/>",
+    "target": "/index.html",
+    "status": "200",
+    "condition": null
+  },
+  {
+    "source": "/<*>",
+    "target": "/index.html",
+    "status": "404-200",
+    "condition": null
+  }
+]
